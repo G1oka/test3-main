@@ -1,0 +1,49 @@
+.full-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f3fe;
+}
+
+.small-screen {
+  width: 50%;
+  padding: 20px; /* Adjusted padding to make content closer to borders */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 30px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Make input containers wider */
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Make rows take full width of container */
+  margin-bottom: 15px;
+  gap: 15px; /* Reduced gap to decrease spacing between fields */
+}
+
+input, textarea {
+  width: 100%; /* Make input fields wider */
+  padding: 10px; /* Increase padding for larger input fields */
+  font-size: 16px; /* Increase font size for better readability */
+  border-radius: 5px; /* Optional: Rounder corners for input fields */
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensure padding does not affect total width */
+}
